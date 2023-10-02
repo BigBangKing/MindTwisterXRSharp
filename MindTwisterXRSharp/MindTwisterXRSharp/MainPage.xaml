@@ -1,0 +1,32 @@
+﻿<sdk:Page x:Class="MindTwisterXRSharp.MainPage"
+          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+          xmlns:local="clr-namespace:MindTwisterXRSharp" 
+          xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+          xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+          xmlns:xr="http://xrsharp.io/xr"
+          mc:Ignorable="d">
+
+    <xr:Root3D ColorManagement="True">
+        <xr:Canvas3D>
+
+            <xr:GltfModel Source="/Examples/Assets/RoomMain.glb" UnlitMaterials="False"   xr:Canvas3D.X="0" xr:Canvas3D.Y="-1.3" xr:Canvas3D.Z="-1.7"/>
+
+            <xr:Grid3D xr:Canvas3D.X="-1" xr:Canvas3D.Y="2.3" xr:Canvas3D.Z="-5.35">
+
+                <xr:TextBlock3D Name="QText" Text="Select one:" Foreground="#317773" Scale="1 1 1" xr:Canvas3D.X="-0.5" xr:Canvas3D.Y="0.8"/>
+
+                <xr:ButtonBase3D Name="ButtonImage1" Tag="1" Click="ButtonBase3D_Click" SizeX="0.1" SizeY="0.1" SizeZ="0.1" Scale="1 1 1" Rotation="0 0 0" xr:Canvas3D.X="0.0"  />
+                <xr:ButtonBase3D Name="ButtonImage2" Tag="2" Click="ButtonBase3D_Click" SizeX="0.1" SizeY="0.1" SizeZ="0.1" Rotation="0 0 0" xr:Canvas3D.X="1.1"  />
+                <xr:ButtonBase3D Name="ButtonImage3" Tag="3" Click="ButtonBase3D_Click" SizeX="0.1" SizeY="0.1" SizeZ="0.1" Rotation="0 0 0" xr:Canvas3D.X="2.2"  />
+
+                <xr:TextBlock3D Name="AText" Text="Correct / Wrong" Scale="1 1 1" xr:Canvas3D.X="0.8" xr:Canvas3D.Y="-0.7"/>
+
+                <xr:TextBlock3D Name="ScoreText" Text="Score: 0 / 1" Foreground="#317773" Scale="1 1 1" xr:Canvas3D.X="0.7" xr:Canvas3D.Y="1.15"/>
+
+            </xr:Grid3D>
+            
+        </xr:Canvas3D>
+    </xr:Root3D>
+</sdk:Page>

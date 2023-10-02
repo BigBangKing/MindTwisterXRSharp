@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindTwisterXRSharp.Browser", "MindTwisterXRSharp\MindTwisterXRSharp.Browser\MindTwisterXRSharp.Browser.csproj", "{FEDA7FC3-3E94-4354-ADD5-B77E0E3CDCF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindTwisterXRSharp", "MindTwisterXRSharp\MindTwisterXRSharp\MindTwisterXRSharp.csproj", "{7ED6F8FF-F653-49C3-AD96-0A2598774919}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEDA7FC3-3E94-4354-ADD5-B77E0E3CDCF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDA7FC3-3E94-4354-ADD5-B77E0E3CDCF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDA7FC3-3E94-4354-ADD5-B77E0E3CDCF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDA7FC3-3E94-4354-ADD5-B77E0E3CDCF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED6F8FF-F653-49C3-AD96-0A2598774919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED6F8FF-F653-49C3-AD96-0A2598774919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED6F8FF-F653-49C3-AD96-0A2598774919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED6F8FF-F653-49C3-AD96-0A2598774919}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C910190D-0B74-4957-B518-9E8A23B02931}
+	EndGlobalSection
+EndGlobal

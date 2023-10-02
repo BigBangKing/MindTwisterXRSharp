@@ -1,0 +1,139 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <DefineSilverlight>true</DefineSilverlight>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Caliburn.Micro.Core" Version="4.0.212" />
+    <PackageReference Include="XRSharp" Version="0.1.1-*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="App.xaml.cs" />
+    <Compile Include="MainPage.xaml.cs" />
+    <Compile Include="MVVM\Helpers\ConstantsProvider.cs" />
+    <Compile Include="MVVM\Helpers\DataProvider.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="CarPics\Audi\Audi_A3_2010.jpg" />
+    <EmbeddedResource Include="CarPics\Audi\Audi_A3_2015_.jpg" />
+    <EmbeddedResource Include="CarPics\Audi\Audi_A3_2016.jpg" />
+    <EmbeddedResource Include="CarPics\Audi\Audi_A4_2011StationWagon.jpg" />
+    <EmbeddedResource Include="CarPics\Audi\Audi_A4_2011.jpg" />
+    <EmbeddedResource Include="CarPics\Audi\Audi_A4_2013.jpg" />
+    <EmbeddedResource Include="CarPics\Audi\Audi_A6_2011.jpg" />
+    <EmbeddedResource Include="CarPics\Audi\Audi_A7_2014.jpg" />
+    <EmbeddedResource Include="CarPics\Audi\Audi_Q5_2014.jpg" />
+    <EmbeddedResource Include="CarPics\Audi\Audi_TT_2012.jpg" />
+    <EmbeddedResource Include="CarPics\Bentley\Bentley_Bentayga_2017.jpg" />
+    <EmbeddedResource Include="CarPics\Bentley\Bentley_Bentayga_2017_SUV.jpg" />
+    <EmbeddedResource Include="CarPics\Bentley\Bentley_Bentayga_2017_SUV_qID.jpg" />
+    <EmbeddedResource Include="CarPics\Bentley\Bentley_Bentayga_2017_SUV_VeX.jpg" />
+    <EmbeddedResource Include="CarPics\Bentley\Bentley_Bentayga_2020_SUV_iTS.jpg" />
+    <EmbeddedResource Include="CarPics\Bentley\Bentley_Bentayga_2020_UV_Ssr.jpg" />
+    <EmbeddedResource Include="CarPics\Bentley\Bentley_Continental GT_2011_Convertible_DiU.jpg" />
+    <EmbeddedResource Include="CarPics\Bentley\Bentley_Continental GT_2011_Convertible_ePq.jpg" />
+    <EmbeddedResource Include="CarPics\Bentley\Bentley_Continental GT_2011_Convertible_kkv.jpg" />
+    <EmbeddedResource Include="CarPics\Bentley\Bentley_Continental GT_2012_Convertible_PSE.jpg" />
+    <EmbeddedResource Include="CarPics\BMW\BMW_2-Series_2014.jpg" />
+    <EmbeddedResource Include="CarPics\BMW\BMW_2-Series_2015.jpg" />
+    <EmbeddedResource Include="CarPics\BMW\BMW_3-Series_2011.jpg" />
+    <EmbeddedResource Include="CarPics\BMW\BMW_3-Series_2013.jpg" />
+    <EmbeddedResource Include="CarPics\BMW\BMW_3-Series_2019.jpg" />
+    <EmbeddedResource Include="CarPics\BMW\BMW_4-Series_2014.jpg" />
+    <EmbeddedResource Include="CarPics\BMW\BMW_5-Series_2011.jpg" />
+    <EmbeddedResource Include="CarPics\BMW\BMW_6-Series_2014.jpg" />
+    <EmbeddedResource Include="CarPics\BMW\BMW_8-Series_2020_.jpg" />
+    <EmbeddedResource Include="CarPics\BMW\BMW_i3_2014.jpg" />
+    <EmbeddedResource Include="CarPics\Fiat\FIAT_124 Spider_2017_Convertible.jpg" />
+    <EmbeddedResource Include="CarPics\Fiat\FIAT_124 Spider_2019_Convertible.jpg" />
+    <EmbeddedResource Include="CarPics\Fiat\FIAT_124 Spider_2019_RWDConvertible.jpg" />
+    <EmbeddedResource Include="CarPics\Fiat\FIAT_500L_2014.jpg" />
+    <EmbeddedResource Include="CarPics\Fiat\FIAT_500L_2017.jpg" />
+    <EmbeddedResource Include="CarPics\Fiat\FIAT_500X_2017.jpg" />
+    <EmbeddedResource Include="CarPics\Fiat\FIAT_500X_2017AWD_5_4_SUV.jpg" />
+    <EmbeddedResource Include="CarPics\Fiat\FIAT_500X_2017_AWD_SUV.jpg" />
+    <EmbeddedResource Include="CarPics\Fiat\FIAT_500_2011.jpg" />
+    <EmbeddedResource Include="CarPics\Fiat\FIAT_500_2012.jpg" />
+    <EmbeddedResource Include="CarPics\Ford\Ford_Ecosport_2019_4WD_SUV.jpg" />
+    <EmbeddedResource Include="CarPics\Ford\Ford_Ecosport_2019_SUV.jpg" />
+    <EmbeddedResource Include="CarPics\Ford\Ford_Edge_2011.jpg" />
+    <EmbeddedResource Include="CarPics\Ford\Ford_Edge_2014.jpg" />
+    <EmbeddedResource Include="CarPics\Ford\Ford_Edge_2019.jpg" />
+    <EmbeddedResource Include="CarPics\Ford\Ford_Escape_201.jpg" />
+    <EmbeddedResource Include="CarPics\Ford\Ford_Escape_2011.jpg" />
+    <EmbeddedResource Include="CarPics\Ford\Ford_Escape_20114WD__SUV.jpg" />
+    <EmbeddedResource Include="CarPics\Ford\Ford_Expedition_2017.jpg" />
+    <EmbeddedResource Include="CarPics\Ford\Ford_Fiesta_2012_.jpg" />
+    <EmbeddedResource Include="CarPics\Honda\Honda_Accord_2011_FWD_2dr.jpg" />
+    <EmbeddedResource Include="CarPics\Honda\Honda_Accord_2011_FWD_5dr.jpg" />
+    <EmbeddedResource Include="CarPics\Honda\Honda_Accord_2012.jpg" />
+    <EmbeddedResource Include="CarPics\Honda\Honda_Accord_2015.jpg" />
+    <EmbeddedResource Include="CarPics\Honda\Honda_Accord_2020.jpg" />
+    <EmbeddedResource Include="CarPics\Honda\Honda_Civic_2013.jpg" />
+    <EmbeddedResource Include="CarPics\Honda\Honda_Civic_2015.jpg" />
+    <EmbeddedResource Include="CarPics\Honda\Honda_Clarity_2017.jpg" />
+    <EmbeddedResource Include="CarPics\Honda\Honda_CR-V_2011.jpg" />
+    <EmbeddedResource Include="CarPics\Honda\Honda_CR-V_2011_.jpg" />
+    <EmbeddedResource Include="CarPics\Hyundai\Hyundai_Sonata_2011.jpg" />
+    <EmbeddedResource Include="CarPics\Hyundai\Hyundai_Sonata_2014.jpg" />
+    <EmbeddedResource Include="CarPics\Hyundai\Hyundai_Sonata_2017.jpg" />
+    <EmbeddedResource Include="CarPics\Hyundai\Hyundai_Sonata_2019.jpg" />
+    <EmbeddedResource Include="CarPics\Hyundai\Hyundai_Sonata_2020.jpg" />
+    <EmbeddedResource Include="CarPics\Hyundai\Hyundai_Tucson_2013.jpg" />
+    <EmbeddedResource Include="CarPics\Hyundai\Hyundai_Tucson_2019.jpg" />
+    <EmbeddedResource Include="CarPics\Hyundai\Hyundai_Tucson_2019_.jpg" />
+    <EmbeddedResource Include="CarPics\Hyundai\Hyundai_Veloster_2012.jpg" />
+    <EmbeddedResource Include="CarPics\Hyundai\Hyundai_Veloster_2012_.jpg" />
+    <EmbeddedResource Include="CarPics\Jaguar\Jaguar_E-Pace_2020.jpg" />
+    <EmbeddedResource Include="CarPics\Jaguar\Jaguar_E-Pace_2020_.jpg" />
+    <EmbeddedResource Include="CarPics\Jaguar\Jaguar_F-Pace_2019.jpg" />
+    <EmbeddedResource Include="CarPics\Jaguar\Jaguar_F-Type_2015.jpg" />
+    <EmbeddedResource Include="CarPics\Jaguar\Jaguar_F-Type_2016.jpg" />
+    <EmbeddedResource Include="CarPics\Jaguar\Jaguar_I-Pace_2019.jpg" />
+    <EmbeddedResource Include="CarPics\Jaguar\Jaguar_I-Pace_2020.jpg" />
+    <EmbeddedResource Include="CarPics\Jaguar\Jaguar_I-Pace_2020_.jpg" />
+    <EmbeddedResource Include="CarPics\Jaguar\Jaguar_XE_2017.jpg" />
+    <EmbeddedResource Include="CarPics\Jaguar\Jaguar_XE_2017_.jpg" />
+    <EmbeddedResource Include="CarPics\Mercedes_Benz\Mercedes-Benz_C Class_2013.jpg" />
+    <EmbeddedResource Include="CarPics\Mercedes_Benz\Mercedes-Benz_C Class_2015.jpg" />
+    <EmbeddedResource Include="CarPics\Mercedes_Benz\Mercedes-Benz_C Class_2015_.jpg" />
+    <EmbeddedResource Include="CarPics\Mercedes_Benz\Mercedes-Benz_C Class_2016.jpg" />
+    <EmbeddedResource Include="CarPics\Mercedes_Benz\Mercedes-Benz_C Class_2017.jpg" />
+    <EmbeddedResource Include="CarPics\Mercedes_Benz\Mercedes-Benz_C Class_2017_.jpg" />
+    <EmbeddedResource Include="CarPics\Mercedes_Benz\Mercedes-Benz_C Class_2019.jpg" />
+    <EmbeddedResource Include="CarPics\Mercedes_Benz\Mercedes-Benz_CLA Class_2014.jpg" />
+    <EmbeddedResource Include="CarPics\Mercedes_Benz\Mercedes-Benz_CLA Class_2014_.jpg" />
+    <EmbeddedResource Include="CarPics\Mercedes_Benz\Mercedes-Benz_CLA Class_2020.jpg" />
+    <EmbeddedResource Include="CarPics\Toyato\Toyota_4Runner_2011_.jpg" />
+    <EmbeddedResource Include="CarPics\Toyato\Toyota_Avalon_2011_.jpg" />
+    <EmbeddedResource Include="CarPics\Toyato\Toyota_Avalon_2014_.jpg" />
+    <EmbeddedResource Include="CarPics\Toyato\Toyota_Camry_2013.jpg" />
+    <EmbeddedResource Include="CarPics\Toyato\Toyota_Camry_2016.jpg" />
+    <EmbeddedResource Include="CarPics\Toyato\Toyota_Corolla_2011.jpg" />
+    <EmbeddedResource Include="CarPics\Toyato\Toyota_Highlander_2011.jpg" />
+    <EmbeddedResource Include="CarPics\Toyato\Toyota_Land Cruiser_2010_.jpg" />
+    <EmbeddedResource Include="CarPics\Toyato\Toyota_Prius C_2012.jpg" />
+    <EmbeddedResource Include="CarPics\Toyato\Toyota_Prius_2020.jpg" />
+    <Content Include="Assets\room-license.txt" />    
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\RoomMain.glb" />
+  </ItemGroup>
+ 
+
+</Project>
