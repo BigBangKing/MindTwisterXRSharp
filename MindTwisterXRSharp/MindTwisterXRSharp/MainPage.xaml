@@ -15,7 +15,7 @@
 
             <xr:Grid3D xr:Canvas3D.X="-1" xr:Canvas3D.Y="2.3" xr:Canvas3D.Z="-5.35">
 
-                <xr:TextBlock3D Name="QText" Text="{Binding QText}" Foreground="#317773" Scale="1 1 1" xr:Canvas3D.X="-0.5" xr:Canvas3D.Y="0.8"/>
+                <xr:TextBlock3D Name="QText" Text="" Foreground="#317773" Scale="1 1 1" xr:Canvas3D.X="-0.5" xr:Canvas3D.Y="0.8"/>
 
                 <xr:ButtonBase3D Name="ButtonImage1" Tag="1" Click="ButtonBase3D_Click" SizeX="0.1" SizeY="0.1" SizeZ="0.1" Scale="1 1 1" Rotation="0 0 0" xr:Canvas3D.X="0.0"  />
                 <xr:ButtonBase3D Name="ButtonImage2" Tag="2" Click="ButtonBase3D_Click" SizeX="0.1" SizeY="0.1" SizeZ="0.1" Rotation="0 0 0" xr:Canvas3D.X="1.1"  />
