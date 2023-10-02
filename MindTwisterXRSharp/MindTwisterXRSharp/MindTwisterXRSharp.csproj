@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Caliburn.Micro.Core" Version="4.0.212" />
     <PackageReference Include="XRSharp" Version="0.1.1-*" />
   </ItemGroup>
 
@@ -24,7 +23,7 @@
     <Compile Include="App.xaml.cs" />
     <Compile Include="MainPage.xaml.cs" />
     <Compile Include="MVVM\Helpers\ConstantsProvider.cs" />
-    <Compile Include="MVVM\Helpers\DataProvider.cs" />
+    <Compile Include="MVVM\ViewModel.cs" />
   </ItemGroup>
 
   <ItemGroup>
