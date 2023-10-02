@@ -1,14 +1,7 @@
 ﻿using MindTwisterXRSharp.MVVM;
 using System;
-using System.Collections.Generic; 
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Threading;
-using XRSharp.Controls;
-using XRSharp.Controls.Primitives;
-using static System.Formats.Asn1.AsnWriter;
 
 namespace MindTwisterXRSharp
 {
@@ -46,8 +39,7 @@ namespace MindTwisterXRSharp
 
             QText.Text = viewModel.QText;
             ScoreText.Text = viewModel.ScoreText;
-            AText.Text = viewModel.AnsText;
-            AText.Foreground = viewModel.solidColor;
+            UpdateAns();
 
             ButtonImage1.Content = viewModel.image3Ds[0];
             ButtonImage2.Content = viewModel.image3Ds[1];
